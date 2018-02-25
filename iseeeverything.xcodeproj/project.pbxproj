@@ -14,6 +14,7 @@
 		B32855132042D10C00AD0E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32855112042D10C00AD0E6B /* LaunchScreen.storyboard */; };
 		B328551E2042D10C00AD0E6B /* iseeeverythingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B328551D2042D10C00AD0E6B /* iseeeverythingTests.swift */; };
 		B32855292042D10C00AD0E6B /* iseeeverythingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32855282042D10C00AD0E6B /* iseeeverythingUITests.swift */; };
+		B32855372042D79900AD0E6B /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32855362042D79900AD0E6B /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B32855242042D10C00AD0E6B /* iseeeverythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iseeeverythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32855282042D10C00AD0E6B /* iseeeverythingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iseeeverythingUITests.swift; sourceTree = "<group>"; };
 		B328552A2042D10C00AD0E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32855362042D79900AD0E6B /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B32855082042D10C00AD0E6B /* AppDelegate.swift */,
 				B328550A2042D10C00AD0E6B /* ViewController.swift */,
 				B328550C2042D10C00AD0E6B /* Main.storyboard */,
+				B32855362042D79900AD0E6B /* PreviewViewController.swift */,
 				B328550F2042D10C00AD0E6B /* Assets.xcassets */,
 				B32855112042D10C00AD0E6B /* LaunchScreen.storyboard */,
 				B32855142042D10C00AD0E6B /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				B328550B2042D10C00AD0E6B /* ViewController.swift in Sources */,
 				B32855092042D10C00AD0E6B /* AppDelegate.swift in Sources */,
+				B32855372042D79900AD0E6B /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLXUW7A237;
 				INFOPLIST_FILE = iseeeverything/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.unrizki.iseeeverything;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLXUW7A237;
 				INFOPLIST_FILE = iseeeverything/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.unrizki.iseeeverything;
